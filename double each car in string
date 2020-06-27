@@ -1,0 +1,2 @@
+def double_char(txt):
+	return ''.join([c+c for c in txt])
