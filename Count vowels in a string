@@ -1,0 +1,3 @@
+def count_vowels(txt):
+	vowels = ['a', 'e', 'i', 'o', 'u']
+	return sum(txt.count(i) for i in vowels)
