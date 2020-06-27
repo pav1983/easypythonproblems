@@ -1,0 +1,7 @@
+import math
+pi = math.pi 
+
+def cone_volume(h, r):
+	vol = (1 / 3) * pi * r * r * h
+	return round(vol, 2)
+	
