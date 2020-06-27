@@ -1,0 +1,3 @@
+def name_shuffle(txt):
+	rev = ' '.join(reversed(txt.split(' ')))
+	return rev
