@@ -1,0 +1,2 @@
+def filter_list(lst):
+	return [e for e in lst if isinstance(e, int)]
