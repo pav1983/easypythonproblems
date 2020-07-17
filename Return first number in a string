@@ -1,0 +1,4 @@
+import re
+def left_digit(num):
+	num1 = re.findall('\d', num)[0]
+	return int(num1)
